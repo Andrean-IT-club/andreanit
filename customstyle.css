@@ -1,0 +1,53 @@
+
+
+.list-group{
+    background-color:#89d3de;
+    padding-top:20px;
+   }
+
+ .media{
+ 	border:2px solid black;
+ 	padding:20px;
+ }
+ 
+  
+.mbr-section-title{
+	border:0.5rem solid black;
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
+
+.carousel-inner{
+  width:100%;
+  max-height:800px;
+}
+.carousel img{
+  height:550px;
+  width:20px;
+}
+
+
+
+#article{
+  background-color: burlywood;
+}
+
+.img{
+  border-right: 2px solid black;
+}
+
+span{
+  font-style:normal;
+  font-weight: bold;
+}
+.card-text-white{
+  font-size: 20px;
+}
