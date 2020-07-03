@@ -1,5 +1,6 @@
 
 
+
 .list-group{
     background-color:#89d3de;
     padding-top:20px;
@@ -30,8 +31,8 @@
   max-height:20rem !important;
 }
 .carousel img{
-  height:20rem;
-  width:20px;
+  height:25rem;
+  width:100%;
 }
 
 
@@ -52,6 +53,18 @@ span{
   font-size: 20px;
 }
 
+@media  (max-width: 1200px) {
+  body{
+    
+  }
+}
+
 .blog{
+  
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ .new {
+  border: 8 px solid rgb(30, 148, 202);
+  border-radius: 2px;
 }
