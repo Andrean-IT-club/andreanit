@@ -1,6 +1,5 @@
 
 
-
 .list-group{
     background-color:#89d3de;
     padding-top:20px;
@@ -24,7 +23,10 @@
   color: white;
   text-align: center;
 }
+.outline{
+  border:solid black 4px;
 
+}
 
 .carousel-inner{
   width:100%;
@@ -53,11 +55,13 @@ span{
   font-size: 20px;
 }
 
-@media  (max-width: 1200px) {
-  body{
-    
-  }
+body{
+  background-image: url(img/background.jfif);
+  background-size: cover;
+ 
 }
+
+
 
 .blog{
   
