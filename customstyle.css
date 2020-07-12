@@ -15,6 +15,14 @@
 	border:0.5rem solid black;
 }
 
+.mynav{
+  font-size:2rem;
+  font-weight: bolder;
+  background-color: reds;
+
+}
+
+
 .footer {
   left: 0;
   bottom: 0;
@@ -25,6 +33,7 @@
 }
 .outline{
   border:solid black 4px;
+  background-image: url(img/background.jfif);
 
 }
 
@@ -45,6 +54,7 @@
 
 .img{
   border-right: 2px solid black;
+ 
 }
 
 span{
@@ -56,9 +66,9 @@ span{
 }
 
 body{
-  background-image: url(IMG/background.jfif);
+  background-image: url(https://images.unsplash.com/photo-1547623641-d2c56c03e2a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80);
+  background-attachment: fixed;
   background-size: cover;
- 
 }
 
 
