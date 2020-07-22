@@ -82,6 +82,102 @@ body{
   border: 8 px solid rgb(30, 148, 202);
   border-radius: 2px;
 }
+/* from here it's css for hovering effects on cards*/
+.back {
+  background-color: #ffffff;
+  /* background-image: url('https://images.unsplash.com/photo-1521729839347-131a32f9abcb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');  */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .img-rounded{
   border-radius: 10px;
+}
+
+.bkcolor{
+  background-image: url(back1.jpg);
+}
+
+.row.articles_row{
+  padding-left:30px;
+  margin-top:-30px;
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+}
+
+.row.articles_row2{
+margin-top: -75px;
+}
+/* .articles_img{
+  border-radius: 00px;
+  } */
+.container .row .both .face{
+  width: 300px;
+  height: 200px;
+  transition: 0.8s;
+}
+.container .row .both .face.trans{
+  position:relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #a8dadc;
+  z-index: 1;
+  transform: translateY(100px);
+}
+
+.container .row .both .face.sub_trans{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-100px);
+}
+
+.container .row .both:hover .face.trans{
+  
+  transform: translateY(0);
+}
+
+.container .row .both:hover .face.sub_trans{
+  transform: translateY(0px);
+}
+
+
+@media screen and (max-width: 1000px){
+  .container .row .both{  
+    display: block;    
+    transition: 0.8s;
+  }
+  .colu{
+    padding-top: 50px;
+  }
+
+  .row.articles_row{
+    margin-left: -30px;
+  }
+  .row.articles_row2{
+    margin-top: 70px;
+    padding-bottom:50px;
+    display: flex;
+    justify-content: center;
+  }
+  .container .row .both .face.trans{
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a8dadc;
+    transform: translateY(0px);
+  }
+  .container .row .both .face.sub_trans{
+    margin-top: -14px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(0px);
+  }
+  
+
 }
