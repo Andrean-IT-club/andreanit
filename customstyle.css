@@ -99,7 +99,7 @@ body{
 
 .row.articles_row{
   padding-left:30px;
-  margin-top:-30px;
+ /* margin-top:-30px;*/
   display: flex;
   position: relative;
   justify-content: space-around;
@@ -144,7 +144,8 @@ margin-top: -75px;
 }
 
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1000px)
+{
   .container .row .both{  
     display: block;    
     transition: 0.8s;
@@ -180,4 +181,4 @@ margin-top: -75px;
   }
   
 
-}
+} 
