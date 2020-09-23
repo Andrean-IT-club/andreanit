@@ -31,6 +31,67 @@
   color: white;
   text-align: center;
 }
+
+/*------------------------------------------------------css for new menu begins here--------------------------------------------*/
+nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+}
+
+.stlogo img {
+    float: left;
+    width: 30%;
+    margin-left: -80px;
+    padding: 8px 0px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    float: right;
+}
+
+nav ul li a {
+    line-height: 80px;
+    color: #fff;
+    padding: 12px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 6px;
+}
+
+nav ul li a:active {
+    background: #e2472f;
+    color: #fff;
+    border-radius: 6px;
+}
+
+.frontcontainer {
+    width: 100%;
+    height: 100vh;
+    background-image: url(front_1.2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.front {
+    height: 100%;
+    width: 100%;
+}
+/*------------------------------------------------------------------css for new menu ends here-------------------------------------------------------*/
 .outline{
   border:solid black 4px;
   background-image: url(IMG/background.jfif);
@@ -143,6 +204,68 @@ margin-top: -75px;
   transform: translateY(0px);
 }
 
+/*------------------------------------------------------css for new menu begins here--------------------------------------------*/
+nav .fa {
+    display: none;
+}
+
+@media screen and (max-width:772px)
+    {
+    .stlogo img {
+        width: 50%;
+        margin-top: 10px;
+        margin-left: -80px;
+        padding: 0;
+    }
+    .fa-bars {
+        position: absolute;
+        right: 10px;
+        top: 30px;
+    }
+    nav .fa {
+        display: block;
+        color: #fff;
+        margin: 10px 25px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .nav-links {
+        
+        
+        height: 100vh;
+        width: 200px; 
+        background: #000;
+        top: 0;
+        right: 0;
+        position: absolute;
+        text-align: left;
+        z-index: 2;
+    }
+    .nav-links ul {
+        position: absolute;
+        top: 0;
+        left: 0px;
+        padding-top: 50px;
+        display: block;
+    }
+    .nav-links ul li {
+        padding: 0;
+        margin: 0;
+    }
+    .fa-close{
+        margin: 1000px;
+    }
+    .frontcontainer {
+        width: 100%;
+        height: 100vh;
+        background-image: url(mobile_front.jpg);
+        background-size: cover ;
+        background-position: center;
+    }
+}
+
+
+/*------------------------------------------------------------------css for new menu ends here-------------------------------------------------------*/
 
 @media screen and (max-width: 1000px)
 {
