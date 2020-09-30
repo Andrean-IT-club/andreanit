@@ -1,38 +1,35 @@
-
-
-.list-group{
-    background-color:#89d3de;
-    padding-top:20px;
-   }
-
- .media{
- 	border:2px solid black;
- 	padding:20px;
- }
- 
-  
-.mbr-section-title{
-	border:0.5rem solid black;
+.list-group {
+    background-color: #89d3de;
+    padding-top: 20px;
 }
 
-.mynav{
-  font-size:2rem;
-  font-weight: bolder;
-  background-color: reds;
-
+.media {
+    border: 2px solid black;
+    padding: 20px;
 }
 
+.mbr-section-title {
+    border: 0.5rem solid black;
+}
+
+.mynav {
+    font-size: 2rem;
+    font-weight: bolder;
+    background-color: reds;
+}
 
 .footer {
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: red;
-  color: white;
-  text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
 }
 
+
 /*------------------------------------------------------css for new menu begins here--------------------------------------------*/
+
 nav {
     position: absolute;
     top: 0;
@@ -93,6 +90,7 @@ nav ul li a:active {
 }
 
 
+<<<<<<< HEAD
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
@@ -116,126 +114,132 @@ nav ul li a:active {
     text-align: left;
   }
 }
+=======
+>>>>>>> 4427c5b112973c7862fdfdcf1885469d66b0f400
 /*------------------------------------------------------------------css for new menu ends here-------------------------------------------------------*/
-.outline{
-  border:solid black 4px;
-  background-image: url(IMG/background.jfif);
 
+.outline {
+    border: solid black 4px;
+    background-image: url(IMG/background.jfif);
 }
 
-.carousel-inner{
-  width:100%;
-  max-height:20rem !important;
-}
-.carousel img{
-  height:25rem;
-  width:100%;
+.carousel-inner {
+    width: 100%;
+    max-height: 20rem !important;
 }
 
-
-
-#article{
-  background-color: burlywood;
+.carousel img {
+    height: 25rem;
+    width: 100%;
 }
 
-.img{
-  border-right: 2px solid black;
- 
+#article {
+    background-color: burlywood;
 }
 
-span{
-  font-style:normal;
-  font-weight: bold;
-}
-.card-text-white{
-  font-size: 20px;
+.img {
+    border-right: 2px solid black;
 }
 
-body{
-  background-image: url(https://images.unsplash.com/photo-1547623641-d2c56c03e2a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80);
-  background-attachment: fixed;
-  background-size: cover;
+span {
+    font-style: normal;
+    font-weight: bold;
+}
+
+.card-text-white {
+    font-size: 20px;
+}
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1547623641-d2c56c03e2a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.blog {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.new {
+    border: 8 px solid rgb(30, 148, 202);
+    border-radius: 2px;
 }
 
 
-
-.blog{
-  
-   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
- .new {
-  border: 8 px solid rgb(30, 148, 202);
-  border-radius: 2px;
-}
 /* from here it's css for hovering effects on cards*/
+
 .back {
-  background-color: #ffffff;
-  /* background-image: url('https://images.unsplash.com/photo-1521729839347-131a32f9abcb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');  */
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.img-rounded{
-  border-radius: 10px;
+    background-color: #ffffff;
+    /* background-image: url('https://images.unsplash.com/photo-1521729839347-131a32f9abcb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');  */
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.bkcolor{
-  background-image: url(back1.jpg);
+.img-rounded {
+    border-radius: 10px;
 }
 
-.row.articles_row{
-  padding-left:30px;
- /* margin-top:-30px;*/
-  display: flex;
-  position: relative;
-  justify-content: space-around;
+.bkcolor {
+    background-image: url(back1.jpg);
 }
 
-.row.articles_row2{
-margin-top: -75px;
+.row.articles_row {
+    padding-left: 30px;
+    /* margin-top:-30px;*/
+    display: flex;
+    position: relative;
+    justify-content: space-around;
 }
+
+.row.articles_row2 {
+    margin-top: -75px;
+}
+
+
 /* .articles_img{
   border-radius: 00px;
   } */
-.container .row .both .face{
-  width: 300px;
-  height: 200px;
-  transition: 0.8s;
-}
-.container .row .both .face.trans{
-  position:relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #a8dadc;
-  z-index: 1;
-  transform: translateY(100px);
+
+.container .row .both .face {
+    width: 300px;
+    height: 200px;
+    transition: 0.8s;
 }
 
-.container .row .both .face.sub_trans{
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transform: translateY(-100px);
+.container .row .both .face.trans {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a8dadc;
+    z-index: 1;
+    transform: translateY(100px);
 }
 
-.container .row .both:hover .face.trans{
-  
-  transform: translateY(0);
+.container .row .both .face.sub_trans {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-100px);
 }
 
-.container .row .both:hover .face.sub_trans{
-  transform: translateY(0px);
+.container .row .both:hover .face.trans {
+    transform: translateY(0);
 }
+
+.container .row .both:hover .face.sub_trans {
+    transform: translateY(0px);
+}
+
 
 /*------------------------------------------------------css for new menu begins here--------------------------------------------*/
+
 nav .fa {
     display: none;
 }
 
-@media screen and (max-width:772px)
-    {
+@media screen and (max-width:772px) {
     .stlogo img {
         width: 50%;
         margin-top: 10px;
@@ -246,6 +250,7 @@ nav .fa {
         position: absolute;
         right: 10px;
         top: 30px;
+        z-index: 5;
     }
     nav .fa {
         display: block;
@@ -255,16 +260,18 @@ nav .fa {
         cursor: pointer;
     }
     .nav-links {
-        
-        
+        display: none;
         height: 100vh;
-        width: 200px; 
+        width: 200px;
         background: #000;
         top: 0;
         right: 0;
         position: absolute;
         text-align: left;
         z-index: 2;
+    }
+    .nav-links.active {
+        display: flex;
     }
     .nav-links ul {
         position: absolute;
@@ -277,14 +284,11 @@ nav .fa {
         padding: 0;
         margin: 0;
     }
-    .fa-close{
-        margin: 1000px;
-    }
     .frontcontainer {
         width: 100%;
         height: 100vh;
         background-image: url(mobile_front.jpg);
-        background-size: cover ;
+        background-size: cover;
         background-position: center;
     }
 }
@@ -292,41 +296,37 @@ nav .fa {
 
 /*------------------------------------------------------------------css for new menu ends here-------------------------------------------------------*/
 
-@media screen and (max-width: 1000px)
-{
-  .container .row .both{  
-    display: block;    
-    transition: 0.8s;
-  }
-  .colu{
-    padding-top: 50px;
-  }
-
-  .row.articles_row{
-    margin-left: -30px;
-  }
-  .row.articles_row2{
-    margin-top: 70px;
-    padding-bottom:50px;
-    display: flex;
-    justify-content: center;
-  }
-  .container .row .both .face.trans{
-    position:relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #a8dadc;
-    transform: translateY(0px);
-  }
-  .container .row .both .face.sub_trans{
-    margin-top: -14px;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transform: translateY(0px);
-  }
-  
-
-} 
+@media screen and (max-width: 1000px) {
+    .container .row .both {
+        display: block;
+        transition: 0.8s;
+    }
+    .colu {
+        padding-top: 50px;
+    }
+    .row.articles_row {
+        margin-left: -30px;
+    }
+    .row.articles_row2 {
+        margin-top: 70px;
+        padding-bottom: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    .container .row .both .face.trans {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #a8dadc;
+        transform: translateY(0px);
+    }
+    .container .row .both .face.sub_trans {
+        margin-top: -14px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: translateY(0px);
+    }
+}
