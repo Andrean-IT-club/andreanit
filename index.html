@@ -138,9 +138,9 @@
             <nav>
                 <div class="stlogo"><img src="IMG\saclogo.png" alt="logo"></div>
 
-                <div class="nav-links" id="nav-links">
+                <div id="myDropdown">
                     <i class="fa fa-close" onclick="closeMenu()"></i>
-                    <ul>
+                    <ul class="topnav" id="myTopnav">
                         <li><a class="active" href="">Home</a></li>
                         <li><a href="">Gallery</a></li>
                         <li><a href="">Article</a></li>
@@ -454,7 +454,7 @@
 
 
 
-<!-- This is for new menu-->
+<!-- This is for new menu
 	<script>
         var show=document.getElementById("nav-links");
 
@@ -464,7 +464,13 @@
 
         function closeMenu() {
             show.style.right = "-200px";
-        }
+        }-->
+		
+		function showMenu(){
+			document.getElementById("myDropdown").classlist.toggle("show");
+		}
+
+	
     </script>
 <!-- for new menu ends here-->
 
