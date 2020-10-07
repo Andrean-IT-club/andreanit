@@ -31,9 +31,6 @@
 /*------------------------------------------------------css for new menu begins here--------------------------------------------*/
 
 nav {
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100px;
     padding: 10px 90px;
@@ -42,11 +39,15 @@ nav {
 
 .stlogo img {
     float: left;
-    width: 30%;
+    width: 22%;
     margin-left: -80px;
     padding: 8px 0px;
 }
-
+.nav-links{
+    position: relative;
+    top: 0;
+    float: right;
+}
 nav ul {
     list-style: none;
     margin: 0;
@@ -75,22 +76,16 @@ nav ul li a:active {
     color: #fff;
     border-radius: 6px;
 }
-
-.frontcontainer {
-    width: 100%;
-    height: 100vh;
-    background-image: url(front_1.2.jpg);
-    background-size: cover;
-    background-position: center;
+.menu{
+    background-color: #171616;
+    z-index: 2;
 }
-
 .front {
     height: 100%;
     width: 100%;
 }
 
 
-<<<<<<< HEAD
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
@@ -114,14 +109,8 @@ nav ul li a:active {
     text-align: left;
   }
 }
-=======
->>>>>>> 4427c5b112973c7862fdfdcf1885469d66b0f400
 /*------------------------------------------------------------------css for new menu ends here-------------------------------------------------------*/
 
-.outline {
-    border: solid black 4px;
-    background-image: url(IMG/background.jfif);
-}
 
 .carousel-inner {
     width: 100%;
@@ -150,11 +139,6 @@ span {
     font-size: 20px;
 }
 
-body {
-    background-image: url(https://images.unsplash.com/photo-1547623641-d2c56c03e2a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80);
-    background-attachment: fixed;
-    background-size: cover;
-}
 
 .blog {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -168,20 +152,11 @@ body {
 
 /* from here it's css for hovering effects on cards*/
 
-.back {
-    background-color: #ffffff;
-    /* background-image: url('https://images.unsplash.com/photo-1521729839347-131a32f9abcb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');  */
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 .img-rounded {
     border-radius: 10px;
 }
 
-.bkcolor {
-    background-image: url(back1.jpg);
-}
 
 .row.articles_row {
     padding-left: 30px;
@@ -194,11 +169,6 @@ body {
 .row.articles_row2 {
     margin-top: -75px;
 }
-
-
-/* .articles_img{
-  border-radius: 00px;
-  } */
 
 .container .row .both .face {
     width: 300px;
@@ -241,10 +211,10 @@ nav .fa {
 
 @media screen and (max-width:772px) {
     .stlogo img {
-        width: 50%;
+        width: 80%;
         margin-top: 10px;
         margin-left: -80px;
-        padding: 0;
+        padding-top: 15px;
     }
     .fa-bars {
         position: absolute;
@@ -284,13 +254,7 @@ nav .fa {
         padding: 0;
         margin: 0;
     }
-    .frontcontainer {
-        width: 100%;
-        height: 100vh;
-        background-image: url(mobile_front.jpg);
-        background-size: cover;
-        background-position: center;
-    }
+
 }
 
 
